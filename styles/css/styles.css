@@ -63,7 +63,7 @@ table {
 }
 .bento-item:nth-child(2) {
   grid-column: span 3;
-  background-color: #f8bbd0;
+  background-color: #e7e9e3;
 }
 .bento-item:nth-child(3) {
   background-color: #ffecb3;
@@ -111,4 +111,15 @@ h2.subtitle {
 }
 .profile-image {
   width: 340px;
+}
+/* Chart */
+table.charts-css.pie {
+  height: 250px;
+  width: 250px;
+}
+.block-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(0 0 0 / 41%);
+  margin-bottom: 10px;
 }
