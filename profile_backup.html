@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Banking Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="styles/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <section class="hero is-info is-large profile-page">
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <span class="material-symbols-outlined logo-image">
+                  app_badging
+                </span>
+                <span class="logo-text">BankPoint</span>
+              </a>
+              <span class="navbar-burger" data-target="navbarMenuHeroB">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroB" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active"> Home </a>
+                <a class="navbar-item"> Examples </a>
+                <a class="navbar-item"> Documentation </a>
+                <span class="navbar-item">
+                  <a href="index.html" class="button is-info is-inverted">
+                    <span class="material-symbols-outlined"> logout </span>
+                    <span>Logout</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <p class="title">Welcome to Your Online Banking</p>
+          <p class="subtitle">Manage your finances with ease</p>
+          <figure class="image is-128x128 profile-image">
+            <img
+              class="is-rounded"
+              src="https://via.placeholder.com/128"
+              alt="Profile Picture"
+            />
+          </figure>
+        </div>
+      </div>
+
+      <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
+          <div class="container">
+            <ul>
+              <li class="is-active is-local-active">
+                <a>Overview</a>
+              </li>
+              <li>
+                <a>Modifiers</a>
+              </li>
+              <li>
+                <a>Grid</a>
+              </li>
+              <li>
+                <a>Elements</a>
+              </li>
+              <li>
+                <a>Components</a>
+              </li>
+              <li>
+                <a>Layout</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-half">
+            <div class="box">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">John Doe</p>
+                  <p class="subtitle is-6">@johndoe</p>
+                </div>
+              </div>
+              <div class="content">
+                <p><strong>Email:</strong> john.doe@example.com</p>
+                <p><strong>Phone:</strong> (123) 456-7890</p>
+                <p><strong>Address:</strong> 123 Main St, Anytown, USA</p>
+              </div>
+            </div>
+            <div class="box">
+              <h2 class="title is-4">Account Statistics</h2>
+              <div class="columns">
+                <div class="column">
+                  <p><strong>Account Balance:</strong> &euro;5,000</p>
+                  <p><strong>Last Login:</strong> June 5, 2024</p>
+                </div>
+                <div class="column">
+                  <p><strong>Transactions This Month:</strong> 15</p>
+                  <p><strong>Preferred Method:</strong> Mobile Banking</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <h2 class="title is-4">Recent Transactions</h2>
+              <table class="table is-fullwidth">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Amount</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>June 1, 2024</td>
+                    <td>Grocery Store</td>
+                    <td>-&euro;50.00</td>
+                  </tr>
+                  <tr>
+                    <td>June 3, 2024</td>
+                    <td>Salary</td>
+                    <td>+&euro;2,000.00</td>
+                  </tr>
+                  <tr>
+                    <td>June 4, 2024</td>
+                    <td>Electric Bill</td>
+                    <td>-&euro;100.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Profile Page CSS Exercise</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="styles/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <section class="hero is-fullheight login-page">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-centered is-3 is-desktop">
+            <div
+              class="column has-background-white is-half is-flex is-align-items-center is-justify-content-center login_column-left"
+            >
+              <form class="form">
+                <span class="material-symbols-outlined logo-image">
+                  app_badging
+                </span>
+
+                <h1 class="title has-text-centered">Login</h1>
+                <div class="field">
+                  <label class="label">Email</label>
+                  <div class="control">
+                    <input
+                      class="input"
+                      type="email"
+                      placeholder="e.g. alex@example.com"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Password</label>
+                  <div class="control">
+                    <input
+                      class="input"
+                      type="password"
+                      placeholder="********"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="control">
+                    <a
+                      href="profile.html"
+                      class="button is-primary is-fullwidth"
+                      >Login</a
+                    >
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div
+              class="column is-half login-image-container login_column-right"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
