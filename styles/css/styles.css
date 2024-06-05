@@ -15,7 +15,7 @@ table {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../../../images/login-image_img1.png");
+  background-image: url("./../../images/login-image_img1.png");
   background-size: cover;
   background-position: center;
   min-height: 800px;
